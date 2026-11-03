@@ -1,0 +1,11 @@
+name: retail_campaign
+version: "1.0.0"
+profile: retail_campaign
+model-paths: ["models"]
+
+models:
+  retail_campaign:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table
