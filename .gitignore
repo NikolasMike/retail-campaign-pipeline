@@ -3,3 +3,7 @@ data/
 *.parquet
 .env
 .venv/
+dbt/target/
+dbt/logs/
+dbt/dbt_packages/
+*.duckdb
